@@ -1,3 +1,6 @@
+# Rental 1.0
+This is a MERN stack application.It is a Marketplace app that includes authentication and many more features
+
 # Quick Start  🚀
 ### Add a default.json file in config folder with the following
 ```
