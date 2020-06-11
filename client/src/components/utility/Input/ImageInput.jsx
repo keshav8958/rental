@@ -4,12 +4,13 @@ import "react-dropzone-uploader/dist/styles.css";
 
 const ImageInput = ({ setImages }) => {
   const getUploadParams = ({ meta }) => {
-    return { url: "http://localhost:8000/api/image/" };
+    return { url: "/api/image/" };
   };
 
   const handleChangeStatus = ({ meta }, status, files) => {
     if (status === "done") {
       let images = files.map((f) => f.xhr.response);
+
       setImages(images);
     }
   };
