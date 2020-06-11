@@ -10,7 +10,6 @@ const ImageInput = ({ setImages }) => {
   const handleChangeStatus = ({ meta }, status, files) => {
     if (status === "done") {
       let images = files.map((f) => f.xhr.response);
-
       setImages(images);
     }
   };

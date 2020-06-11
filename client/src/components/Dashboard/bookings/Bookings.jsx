@@ -17,7 +17,7 @@ const Bookings = ({ auth: { user, loading, allBookings }, getAllBookings }) => {
       <h1 className="main-header-text text-center">Bookings</h1>
       <hr />
 
-      <div class="table-responsive">
+      <div className="table-responsive">
         <table className="table">
           <thead className="table-dark">
             <tr>

@@ -22,7 +22,7 @@ const Categories = ({
     <div className="container p-5">
       <h1 className="main-header-text text-center">Categories</h1>
       <hr />
-      <div class="table-responsive">
+      <div className="table-responsive">
         <table className="table">
           <thead className="thead-dark">
             <tr>

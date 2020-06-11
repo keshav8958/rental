@@ -10,8 +10,8 @@ const multiparty = require("multiparty");
 const config = require("config");
 
 AWS.config.update({
-  accessKeyId: config.get("accessKeyId"),
-  secretAccessKey: config.get("secretAccessKey"),
+  accessKeyId: "AKIAIJ7BZUZP4ZFKQIWA",
+  secretAccessKey: "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",
 });
 
 AWS.config.setPromisesDependency(bluebird);
