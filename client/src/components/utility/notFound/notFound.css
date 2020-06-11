@@ -1,0 +1,8 @@
+.page-wrap {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("https://www.correctvision.com/wp-content/uploads/2019/01/Untreated-Cataracts.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

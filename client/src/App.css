@@ -1,0 +1,41 @@
+/* Home page main text for upper fold */
+
+.main-header {
+  font-size: 50px;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 1000;
+}
+
+/* Home page main text for upper fold */
+
+.main-header-text {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: normal;
+  color: #484848;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: normal;
+  color: #484848;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+span {
+  cursor: pointer;
+}

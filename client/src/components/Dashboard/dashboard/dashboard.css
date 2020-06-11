@@ -1,0 +1,53 @@
+.dashboard .avatar img {
+  border-radius: 75%;
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.dashboard hr {
+  border-color: white;
+}
+
+.dashboard {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/dc/60/14/shutterstock-1389359966.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.dashboard a {
+  color: white;
+}
+
+.dashboard ul {
+  list-style: none;
+}
+
+.dashboard .nav-item {
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.dashboard .nav-item:hover {
+  background-color: #444;
+}
+
+.dashboard .nav-item .current {
+  background-color: #ff4810;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow: 2px 5px 10px #111;
+}
+
+.dashboard .nav-item .current:hover {
+  transform: translateY(-1px);
+  background-color: #ff5a27;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    min-height: 50vh;
+  }
+}

@@ -1,0 +1,8 @@
+.productDetail {
+  min-height: 85vh;
+}
+
+.productImage img {
+  max-height: 75vh;
+  min-width: 50vh;
+}

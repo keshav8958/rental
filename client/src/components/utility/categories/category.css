@@ -1,0 +1,43 @@
+.category {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 650;
+  transition: all 0.5s ease-in-out;
+}
+
+.category .image {
+  overflow: hidden;
+}
+
+.category img {
+  max-width: 100%;
+  transition: all 5s ease;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.category img:hover {
+  transform: scale(1.2);
+  filter: blur(1px);
+}
+
+.category a {
+  color: white;
+}
+
+.category .category-name,
+.category .price {
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  padding: 20px;
+  right: 0;
+}
+
+.category .price {
+  bottom: 0px;
+  font-weight: normal;
+}
