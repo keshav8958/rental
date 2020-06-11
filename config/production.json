@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://admin:admin@cluster0-vacrr.mongodb.net/rental?retryWrites=true&w=majority",
+  "jwtSecret": "QcM7vt8qrUfXyszzkLf5MxaHuK5JxFrT7FeDTxLw",
+  "accessKeyId": "AKIAIJ7BZUZP4ZFKQIWA",
+  "secretAccessKey": "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"
+}
